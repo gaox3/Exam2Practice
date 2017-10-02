@@ -40,9 +40,9 @@ def main():
     ####################################################################
 
 
-    run_test_init()
-    run_test_append_string()
-    run_test_double()
+    # run_test_init()
+    # run_test_append_string()
+    # run_test_double()
     run_test_shrink()
 #     run_test_double_then_shrink()
 #     run_test_reset()
@@ -271,10 +271,13 @@ class Box(object):
         # and THEN translate the pseudo-code to a solution.
         # --------------------------------------------------------------
         self.volume = new_volume
-        for k in range()
-        if len(self.contents) > new_volume:
-            return
-
+        return_list = ''
+        for k in range(new_volume):
+            if len(self.contents) > new_volume:
+                return_list = return_list + self.contents[len(self.contents, 1, -1)]
+            else:
+                self.contents = self.contents
+        return return_list
 
     def double_then_shrink(self, new_volume):
         """
